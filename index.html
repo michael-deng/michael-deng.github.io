@@ -8,9 +8,21 @@ title: Michael Deng
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="css/custom-styles.css" media="screen">
-    <link rel="stylesheet" href="css/component.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/jPushMenu.css" />
 	</head>
 	<body>
+
+        <body>
+          <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left">
+            <h3>Menu</h3>
+            <a href="#">Celery seakale</a>
+            <a href="#">Dulse daikon</a>
+            <a href="#">Zucchini garlic</a>
+            <a href="#">Catsear azuki bean</a>
+            <a href="#">Dandelion bunya</a>
+            <a href="#">Rutabaga</a>
+          </nav>
+
 
         <!-- Carousel -->
           <div id="myCarousel" class="carousel slide" data-interval="false" data-wrap="false">
@@ -31,12 +43,9 @@ title: Michael Deng
                       <h1 class="caption-position">University of California, Berkeley</h1>
 
         <!-- Push menu button -->
-                      <div class="main">
-                          <section class="buttonset">
-                              <h2>Push Menus</h2>
+                      <div class="main" id="menu-border">
                               <!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
-                              <button id="showLeftPush">Show/Hide Left Push Menu</button>
-                          </section>
+                              <a class="toggle-menu menu-left push-body" id="i-nav-display"></a>
                       </div>
 
                     </div>
@@ -61,14 +70,14 @@ title: Michael Deng
                   </div>
               </div>
 
-        <!-- Carousel nav -->
+        <!-- Carousel nav
               <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                   <span class="glyphicon glyphicon-chevron-left"></span>
               </a>
               <a class="right carousel-control" href="#myCarousel" data-slide="next">
                   <span class="glyphicon glyphicon-chevron-right"></span>
               </a>
-
+        -->
           </div>
 
           <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
@@ -85,7 +94,11 @@ title: Michael Deng
           <script src="http://code.jquery.com/jquery.min.js"></script>
           <script src="js/bootstrap.min.js"></script>
           <script src="js/custom-scripts.js"></script>
-          <script src="js/classie.js"></script>
-          <script src="modernizr.custom.js"></script>
+          <script src="js/jPushMenu.js"></script>
+          <script>
+            jQuery(document).ready(function($) {
+              $('.toggle-menu').jPushMenu();
+            });
+          </script>
 	</body>
 </html>
