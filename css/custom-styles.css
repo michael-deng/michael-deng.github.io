@@ -1,0 +1,86 @@
+/* Carousel background */
+
+html, body {
+	height:100%;
+	margin:0;
+	padding:0;
+}
+.carousel, .item, .active {
+	height: 100%;
+}
+.carousel-inner {
+	height: 100%;
+}
+.carousel {
+	margin-bottom: 0px;
+}
+.carousel-caption {
+	z-index: 10;
+}
+.carousel .carousel-inner .bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.carousel .carousel-inner .bg1 {
+	background-image:url(http://s1.picswalls.com/wallpapers/2014/01/22/beautiful-black-wallpaper_052244_13.jpg);
+	background-position: center top;
+}
+.carousel .carousel-inner .bg2 {
+	background-image:url(http://imicrothinking.files.wordpress.com/2009/10/whitebackground1920x1200.jpg);
+	background-position: center center;
+}
+.carousel .carousel-inner .bg3 {
+	background-image:url(http://imicrothinking.files.wordpress.com/2009/10/whitebackground1920x1200.jpg);
+	background-position: center bottom;
+}
+
+/* Fade transition */
+
+.carousel .item {
+	-webkit-transition: opacity 3s; 
+	-moz-transition: opacity 3s; 
+	-ms-transition: opacity 3s; 
+	-o-transition: opacity 3s; 
+	transition: opacity 3s;
+}
+.carousel .active.left {
+	left:0;
+	opacity:0;
+	z-index:2;
+}
+.carousel .active.right {
+	left:0;
+	opacity:0;
+	z-index:2;
+}
+.carousel .next {
+	left:0;
+	opacity:1;
+	z-index:1;
+}
+.carousel .prev {
+	left:0;
+	opacity:1;
+	z-index:1;
+}
+
+/* Positioning */
+
+.heading-position {
+    position: static;
+    padding: 23% 10% 3% 10%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 500%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.caption-position {
+	position: static;
+	padding: 0% 10% 3% 10%;
+	margin: 0% 20% 0% 20%;
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    font-family: Papyrus, fantasy;
+}
