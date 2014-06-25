@@ -4,7 +4,7 @@ title: Michael Deng
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>My First Bootstrap project</title>
+		<title>Michael Deng</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="css/custom-styles.css" media="screen">
@@ -13,15 +13,7 @@ title: Michael Deng
 	<body>
 
         <body>
-          <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left">
-            <h3>Menu</h3>
-            <a href="#">Celery seakale</a>
-            <a href="#">Dulse daikon</a>
-            <a href="#">Zucchini garlic</a>
-            <a href="#">Catsear azuki bean</a>
-            <a href="#">Dandelion bunya</a>
-            <a href="#">Rutabaga</a>
-          </nav>
+
 
 
         <!-- Carousel -->
@@ -42,10 +34,14 @@ title: Michael Deng
                       <h1 class="caption-position">Electrical Engineering and Computer Science</h1>
                       <h1 class="caption-position">University of California, Berkeley</h1>
 
-        <!-- Push menu button -->
-                      <div class="main" id="menu-border">
+                <!-- Push menu button -->
+                      <div class="main">
+                          <section>
                               <!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
-                              <a class="toggle-menu menu-left push-body" id="i-nav-display"></a>
+                              <div class="toggle-menu menu-left push-body">
+                                <div class="btn"></div>
+                              </div>
+                          </section>
                       </div>
 
                     </div>
@@ -80,11 +76,11 @@ title: Michael Deng
         -->
           </div>
 
-          <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+          <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left">
               <h3>Menu</h3>
-              <a href="#">About Me</a>
-              <a href="#">Experience</a>
-              <a href="#">Zucchini garlic</a>
+              <a href='#' onClick="javascript:goToSlide(0);">About Me</a>
+              <a href="#" onClick="javascript:goToSlide(1);">Experience</a>
+              <a href="#" onClick="javascript:goToSlide(2);">Zucchini garlic</a>
               <a href="#">Catsear azuki bean</a>
               <a href="#">Dandelion bunya</a>
               <a href="#">Rutabaga</a>

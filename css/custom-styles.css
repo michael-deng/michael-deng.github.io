@@ -87,29 +87,14 @@ html, body {
 
 /* Menu icon */
 
-#menu-border {
-	background-color: red;
+.btn { 
+    position: absolute;         
+    margin-right:2%; 
+    border: 0.2em solid white;
+    border-radius: 0.3em; 
+    height: 2.5em; 
+    width: 2.5em; 
+	top: 3%;
+	left: 2.3%;        
 }
-#i-nav-display, #i-nav-display:after, #i-nav-display:before {
-     position:absolute;
-     width:2em;
-     height:0.3em;
-     background:white;
-     border-radius:20px;
-}
-#i-nav-display {
-     display:block;
-     text-indent:-999em;
-     left:1.5%;
-     top:4%;
-}
-#i-nav-display:after, #i-nav-display:before {
-     content:"\00a0";
-     left:0;
-}
-#i-nav-display:before {
-     top:-10px;
-}
-#i-nav-display:after {
-     top:10px;
-}
+

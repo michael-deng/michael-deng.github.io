@@ -1,4 +1,4 @@
-// Hides left arrow for first slide and right arrow for last slide on carousel
+// Hide left arrow for first slide and right arrow for last slide on carousel
 
 $(document).ready(function(){
 	checkitem();
@@ -18,6 +18,12 @@ function checkitem()
   } else {
     $this.children('.carousel-control').show();
   } 
+}
+
+// Make menu buttons go to specific carousel slides
+
+function goToSlide(number) {
+   $('#myCarousel').carousel(number);
 }
 
 
