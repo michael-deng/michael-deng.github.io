@@ -67,6 +67,7 @@
 		if(o.closeOnClickOutside) {
 			 $(document).click(function() { 
 				jPushMenu.close();
+				dim(false);
 			 }); 
 
 			 $('.cbp-spmenu,.toggle-menu').click(function(e){ 
@@ -78,6 +79,7 @@
         if(o.closeOnClickLink) {
             $('.cbp-spmenu a').on('click',function(){
                 jPushMenu.close();
+                dim(false);
             });
         }
 	};
@@ -99,3 +101,11 @@
 		closeOnClickLink: true
 	};
 })(jQuery);
+
+// Darken background after clicking menu button
+
+function dim(bool)
+{
+    if (typeof bool =='undefined') bool=true; // so you can shorten dim(true) to dim()
+    document.getElementsByClassName('dimmer').style.display=(bool?'block':'none');
+}

@@ -26,11 +26,11 @@ html, body {
 	background-position: center top;
 }
 .carousel .carousel-inner .bg2 {
-	background-image:url(http://www.picthd.com/wp-content/uploads/2014/04/white-iphone-wallpaper-hd-6-1024x640.jpg);
+	background-image:url(http://cdn.superbwallpapers.com/wallpapers/meme/doge-27299-1280x800.jpg);
 	background-position: center center;
 }
 .carousel .carousel-inner .bg3 {
-	background-image:url(http://www.picthd.com/wp-content/uploads/2014/04/white-iphone-wallpaper-hd-6-1024x640.jpg);
+	background-image:url(http://wallpaperscraft.com/image/white_background_dents_bumps_texture_69592_1680x1050.jpg?orig=1);
 	background-position: center bottom;
 }
 
@@ -103,4 +103,18 @@ html, body {
 #btn-home-page {
 	border: 0.2em solid white;
 	color: white;
+}
+
+/* Dim background */
+
+.dimmer {
+    background:#000;
+    opacity:0.5;
+    position:absolute; /* important to use fixed, not absolute */
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display:none;
+    z-index:9999; /* may not be necessary */
 }
