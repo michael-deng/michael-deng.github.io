@@ -67,7 +67,7 @@
 		if(o.closeOnClickOutside) {
 			 $(document).click(function() { 
 				jPushMenu.close();
-				dim(false);
+				dim1(false); dim2(false); dim3(false); dim4(false); dim5(false);
 			 }); 
 
 			 $('.cbp-spmenu,.toggle-menu').click(function(e){ 
@@ -79,7 +79,7 @@
         if(o.closeOnClickLink) {
             $('.cbp-spmenu a').on('click',function(){
                 jPushMenu.close();
-                dim(false);
+                dim1(false); dim2(false); dim3(false); dim4(false); dim5(false);
             });
         }
 	};
@@ -102,10 +102,34 @@
 	};
 })(jQuery);
 
-// Darken background after clicking menu button
+// Darken background after clicking menu button (One function for each page)
 
-function dim(bool)
+function dim1(bool)
 {
     if (typeof bool =='undefined') bool=true; // so you can shorten dim(true) to dim()
-    document.getElementsByClassName('dimmer').style.display=(bool?'block':'none');
+    document.getElementById('dimmer1').style.display=(bool?'block':'none');
+}
+
+function dim2(bool)
+{
+    if (typeof bool =='undefined') bool=true; // so you can shorten dim(true) to dim()
+    document.getElementById('dimmer2').style.display=(bool?'block':'none');
+}
+
+function dim3(bool)
+{
+    if (typeof bool =='undefined') bool=true; // so you can shorten dim(true) to dim()
+    document.getElementById('dimmer3').style.display=(bool?'block':'none');
+}
+
+function dim4(bool)
+{
+    if (typeof bool =='undefined') bool=true; // so you can shorten dim(true) to dim()
+    document.getElementById('dimmer4').style.display=(bool?'block':'none');
+}
+
+function dim5(bool)
+{
+    if (typeof bool =='undefined') bool=true; // so you can shorten dim(true) to dim()
+    document.getElementById('dimmer5').style.display=(bool?'block':'none');
 }
