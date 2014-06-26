@@ -26,4 +26,7 @@ function goToSlide(number) {
    $('#myCarousel').carousel(number);
 }
 
+// Darken background after clicking menu button
+
+
 
