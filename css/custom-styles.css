@@ -22,15 +22,15 @@ html, body {
 	background-size: cover;
 }
 .carousel .carousel-inner .bg1 {
-	background-image:url(http://s1.picswalls.com/wallpapers/2014/01/22/beautiful-black-wallpaper_052244_13.jpg);
+	background-image:url(http://cdn.superbwallpapers.com/wallpapers/meme/doge-27299-1280x800.jpg);
 	background-position: center top;
 }
 .carousel .carousel-inner .bg2 {
-	background-image:url(http://imicrothinking.files.wordpress.com/2009/10/whitebackground1920x1200.jpg);
+	background-image:url(http://www.picthd.com/wp-content/uploads/2014/04/white-iphone-wallpaper-hd-6-1024x640.jpg);
 	background-position: center center;
 }
 .carousel .carousel-inner .bg3 {
-	background-image:url(http://imicrothinking.files.wordpress.com/2009/10/whitebackground1920x1200.jpg);
+	background-image:url(http://www.picthd.com/wp-content/uploads/2014/04/white-iphone-wallpaper-hd-6-1024x640.jpg);
 	background-position: center bottom;
 }
 
@@ -71,7 +71,7 @@ html, body {
     padding: 23% 10% 3% 10%;
     margin: 0 auto 0 auto;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 500%;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -80,7 +80,7 @@ html, body {
 	padding: 0% 10% 3% 10%;
 	margin: 0% 20% 0% 20%;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 150%;
     font-family: Papyrus, fantasy;
 }
@@ -90,7 +90,7 @@ html, body {
 .btn { 
     position: absolute;         
     margin-right:2%; 
-    border: 0.2em solid white;
+    border: 0.2em solid black;
     border-radius: 0.3em; 
     height: 2.5em; 
     width: 2.5em; 
@@ -98,3 +98,6 @@ html, body {
 	left: 2.3%;        
 }
 
+#btn-title {
+	border: 0.2em solid white;
+}

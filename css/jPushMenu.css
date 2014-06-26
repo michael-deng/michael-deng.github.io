@@ -1,11 +1,11 @@
 /* General styles for all menus */
 .cbp-spmenu {
-	background: #47a3da;
+	background: #222222;
 	position: fixed;
 }
 
 .cbp-spmenu h3 {
-	color: #afdefa;
+	color: white;
 	font-size: 1.9em;
 	padding: 20px;
 	margin: 0;
