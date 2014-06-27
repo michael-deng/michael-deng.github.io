@@ -37,11 +37,11 @@ html, body {
 /* Fade transition */
 
 .carousel .item {
-	-webkit-transition: opacity 3s; 
-	-moz-transition: opacity 3s; 
-	-ms-transition: opacity 3s; 
-	-o-transition: opacity 3s; 
-	transition: opacity 3s;
+	-webkit-transition: opacity 1.5s; 
+	-moz-transition: opacity 1.5s; 
+	-ms-transition: opacity 1.5s; 
+	-o-transition: opacity 1.5s; 
+	transition: opacity 1.5s;
 }
 .carousel .active.left {
 	left:0;
@@ -88,9 +88,13 @@ html, body {
 /* Menu icon */
 
 .btn { 
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+  	transition-duration: 0.3s;
     position: absolute;         
     margin-right: 2%; 
-    border: 0.2em solid black;
+    border: 0.2em solid #333333;
     border-radius: 0.3em; 
     height: 2.5em; 
     width: 5em; 
@@ -101,8 +105,26 @@ html, body {
 }
 
 #btn-home-page {
-	border: 0.2em solid white;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+  	transition-duration: 0.3s;
+	border: 0.2em solid #999999;
 	color: white;
+}
+
+/* Menu Button Hover Effects */
+
+.btn:hover {
+	color: black;
+	border-color: black;
+	text-decoration: none;
+}
+
+#btn-home-page:hover {
+	color: white;
+	border-color: white;
+	text-decoration: none;
 }
 
 /* Dim background for each page */
@@ -118,3 +140,5 @@ html, body {
     display:none;
     z-index:9999; /* may not be necessary */
 }
+
+

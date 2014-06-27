@@ -19,10 +19,14 @@
 
 .cbp-spmenu h3 img {
 	height: 100%;
-	margin-left: -0em;
+	margin-left: -0.9em;
 }
 
 .cbp-spmenu a {
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+  	transition-duration: 0.3s;
 	display: block;
 	color: #fff;
 	font-size: 0.9em;
@@ -37,14 +41,12 @@
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
+/* Highlight menu options on hover */
+
 .cbp-spmenu a:hover {
+  	color: white;
 	border-color: white;
 	text-decoration: none;
-}
-
-.cbp-spmenu a:active {
-	background: #000000;
-	color: #000000;
 }
 
 /* Orientation-dependent styles for the content of the menu */
