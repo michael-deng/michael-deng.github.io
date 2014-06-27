@@ -26,7 +26,7 @@ html, body {
 	background-position: center top;
 }
 .carousel .carousel-inner .bg2 {
-	background-image:url(http://www.solidbackgrounds.com/images/1280x800/1280x800-light-gray-solid-color-background.jpg)
+	background-image:url(http://www.solidbackgrounds.com/images/1280x800/1280x800-light-gray-solid-color-background.jpg);
 	background-position: center center;
 }
 .carousel .carousel-inner .bg3 {
@@ -102,12 +102,13 @@ html, body {
 .btn { 
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
   	transition-duration: 0.3s;
     position: absolute;         
     margin-right: 2%; 
-    border: 0.2em solid #333333;
-    border-radius: 0.3em; 
+    border: 0.2em solid #777777;
+    border-radius: 0.3em;
     height: 2.5em; 
     width: 5em; 
 	top: 3.6%;
@@ -120,6 +121,7 @@ html, body {
 #btn-home-page {
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
   	transition-duration: 0.3s;
 	border: 0.2em solid #999999;
@@ -157,24 +159,29 @@ html, body {
 /* Social media icons */
 
 .social-media {
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+  	transition-duration: 0.3s;
 	color: gray;
 	margin-top: 2em;
 }
 
 #left {
 	float: left;
-	padding-left: 5.3em;
+	margin-left: 5.3em;
 }
 
 #middle {
 	float: none;
-	padding: 0em 2.68em 0 2.68em;
+	margin: 0em 2.68em 0 2.68em;
 	margin-top: 2.06em;
 }
 
 #right {
 	float: right;
-	padding-right: 5.3em;
+	margin-right: 5.3em;
 }
 
 .social-media:hover {

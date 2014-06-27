@@ -1,30 +1,36 @@
 /* General styles for all menus */
 .cbp-spmenu {
-	background: #000000;
+	background: #111111;
 	position: fixed;
 }
 
 .cbp-spmenu h3 {
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+  	transition-duration: 0.5s;
 	color: white;
 	font-size: 2.5em;
-	margin: 3em auto 1.5em auto;
+	margin: 2.5em auto 1em auto;
 	font-weight: 300;
 	background: #000000;
 	text-align: center;
-	height: 5em;
-	width: 5em;
+	height: 4em;
+	width: 4em;
 	overflow: hidden;
 	border-radius: 50%;
 }
 
 .cbp-spmenu h3 img {
 	height: 100%;
-	margin-left: -0.9em;
+	margin-left: -0.7em;
 }
 
 .cbp-spmenu a.menu-buttons {
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
   	transition-duration: 0.3s;
 	display: block;
@@ -33,26 +39,25 @@
 	font-weight: 300;
 	text-align: center;
 	border: 0.1em solid gray;
-	border-radius: 0.3em;
 	height: 3em;
-	width: 10em;
+	width: 12em;
 	margin: 2em auto 0em auto;
 	padding-top: 0.7em;
 	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 
 
-
-
-.cbp-spmenu span a {
-
-}
-
 /* Highlight menu options on hover */
 
 .cbp-spmenu a:hover {
   	color: white;
 	border-color: white;
+	text-decoration: none;
+}
+
+.cbp-spmenu h3:hover {
+	height: 4.25em;
+	width: 4.25em;
 	text-decoration: none;
 }
 
@@ -147,6 +152,8 @@
 .cbp-spmenu-push {
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
 
