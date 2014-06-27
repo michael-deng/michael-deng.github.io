@@ -22,7 +22,7 @@
 	margin-left: -0.9em;
 }
 
-.cbp-spmenu a {
+.cbp-spmenu a.menu-buttons {
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
@@ -38,7 +38,14 @@
 	width: 10em;
 	margin: 2em auto 0em auto;
 	padding-top: 0.7em;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+
+
+
+.cbp-spmenu span a {
+
 }
 
 /* Highlight menu options on hover */

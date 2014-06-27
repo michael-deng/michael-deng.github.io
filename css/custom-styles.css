@@ -22,15 +22,15 @@ html, body {
 	background-size: cover;
 }
 .carousel .carousel-inner .bg1 {
-	background-image:url(http://cdn.superbwallpapers.com/wallpapers/meme/doge-27299-1280x800.jpg);
+	background-image:url(http://www.windows7desktopwallpapers.com/wallpapers/1280x800/black-wallpapers.jpg);
 	background-position: center top;
 }
 .carousel .carousel-inner .bg2 {
-	background-image:url(http://wallpaperscraft.com/image/justin_bieber_face_eyes_singer_black_and_white_61059_1440x900.jpg?orig=1);
+	background-image:url(http://www.solidbackgrounds.com/images/1280x800/1280x800-light-gray-solid-color-background.jpg)
 	background-position: center center;
 }
 .carousel .carousel-inner .bg3 {
-	background-image:url(http://wallpaperscraft.com/image/white_background_dents_bumps_texture_69592_1680x1050.jpg?orig=1);
+	background-image:url(http://www.solidbackgrounds.com/images/1280x800/1280x800-light-gray-solid-color-background.jpg);
 	background-position: center bottom;
 }
 
@@ -66,20 +66,32 @@ html, body {
 
 /* Positioning */
 
+.home-heading-position {
+    position: static;
+    padding: 27% 10% 3% 10%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    color: black;
+    font-size: 600%;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
 .heading-position {
     position: static;
-    padding: 23% 10% 3% 10%;
+    padding: 16% 10% 3% 10%;
     margin: 0 auto 0 auto;
     text-align: center;
     color: black;
     font-size: 500%;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
+
 .caption-position {
 	position: static;
-	padding: 0% 10% 3% 10%;
+	padding: 0% 0% 3% 0%;
 	margin: 0% 20% 0% 20%;
     text-align: center;
+    line-height: 200%;
     color: black;
     font-size: 150%;
     font-family: Papyrus, fantasy;
@@ -101,7 +113,8 @@ html, body {
 	top: 3.6%;
 	left: 2.4%;
 	text-align: center;
-	color: black;        
+	color: black;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;        
 }
 
 #btn-home-page {
@@ -141,4 +154,31 @@ html, body {
     z-index:9999; /* may not be necessary */
 }
 
+/* Social media icons */
 
+.social-media {
+	color: gray;
+	margin-top: 2em;
+}
+
+#left {
+	float: left;
+	padding-left: 5.3em;
+}
+
+#middle {
+	float: none;
+	padding: 0em 2.68em 0 2.68em;
+	margin-top: 2.06em;
+}
+
+#right {
+	float: right;
+	padding-right: 5.3em;
+}
+
+.social-media:hover {
+	color: white;
+	cursor: pointer; cursor: hand;
+	text-decoration: none;
+}
