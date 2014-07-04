@@ -37,11 +37,11 @@ html, body {
 /* Fade transition */
 
 .carousel .item {
-	-webkit-transition: opacity 1.5s; 
-	-moz-transition: opacity 1.5s; 
-	-ms-transition: opacity 1.5s; 
-	-o-transition: opacity 1.5s; 
-	transition: opacity 1.5s;
+	-webkit-transition: opacity 1s; 
+	-moz-transition: opacity 1s; 
+	-ms-transition: opacity 1s; 
+	-o-transition: opacity 1s; 
+	transition: opacity 1s;
 }
 .carousel .active.left {
 	left:0;
