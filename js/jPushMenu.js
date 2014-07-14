@@ -28,12 +28,7 @@
 				target         = '.cbp-spmenu-right';
 				push_direction = 'toleft';
 			}
-			else if($(this).is('.'+o.showTopClass)) {
-				target         = '.cbp-spmenu-top';
-			}
-			else if($(this).is('.'+o.showBottomClass)) {
-				target         = '.cbp-spmenu-bottom';
-			}
+
 
 
 			$(this).toggleClass(o.activeClass);

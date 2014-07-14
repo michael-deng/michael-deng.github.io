@@ -17,31 +17,21 @@ html, body {
 .carousel-caption {
 	z-index: 10;
 }
-.carousel .carousel-inner .bg {
-	background-repeat: no-repeat;
-	background-size: cover;
+.carousel .carousel-inner .dark-background {
+	background: #000000;
 }
-.carousel .carousel-inner .bg1 {
-	background-image:url(http://www.windows7desktopwallpapers.com/wallpapers/1280x800/black-wallpapers.jpg);
-	background-position: center top;
-}
-.carousel .carousel-inner .bg2 {
-	background-image:url(http://www.solidbackgrounds.com/images/1280x800/1280x800-light-gray-solid-color-background.jpg);
-	background-position: center center;
-}
-.carousel .carousel-inner .bg3 {
-	background-image:url(http://www.solidbackgrounds.com/images/1280x800/1280x800-light-gray-solid-color-background.jpg);
-	background-position: center bottom;
+.carousel .carousel-inner .light-background {
+	background: #F0F0F0;
 }
 
 /* Fade transition */
 
 .carousel .item {
-	-webkit-transition: opacity 1s; 
-	-moz-transition: opacity 1s; 
-	-ms-transition: opacity 1s; 
-	-o-transition: opacity 1s; 
-	transition: opacity 1s;
+	-webkit-transition: opacity 0.5s; 
+	-moz-transition: opacity 0.5s; 
+	-ms-transition: opacity 0.5s; 
+	-o-transition: opacity 0.5s; 
+	transition: opacity 0.5s;
 }
 .carousel .active.left {
 	left:0;
@@ -168,18 +158,18 @@ html, body {
 	margin-top: 2em;
 }
 
-#left {
+#linkedin {
 	float: left;
 	margin-left: 5.3em;
 }
 
-#middle {
+#github {
 	float: none;
 	margin: 0em 2.68em 0 2.68em;
 	margin-top: 2.06em;
 }
 
-#right {
+#facebook {
 	float: right;
 	margin-right: 5.3em;
 }
