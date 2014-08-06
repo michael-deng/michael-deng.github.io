@@ -20,22 +20,21 @@
 			push_direction     = '';
 
 
-			if($(this).is('.'+o.showLeftClass)) {
+			if($(this).is('.' + o.showLeftClass)) {
 				target         = '.cbp-spmenu-left';
 				push_direction = 'toright';
 			}
-			else if($(this).is('.'+o.showRightClass)) {
+			else if($(this).is('.' + o.showRightClass)) {
 				target         = '.cbp-spmenu-right';
 				push_direction = 'toleft';
 			}
 
 
-
 			$(this).toggleClass(o.activeClass);
 			$(target).toggleClass(o.menuOpenClass);
 
-			if($(this).is('.'+o.pushBodyClass)) {
-				$('body').toggleClass( 'cbp-spmenu-push-'+push_direction );
+			if($(this).is('.' + o.pushBodyClass)) {
+				$('body').toggleClass('cbp-spmenu-push-' + push_direction);
 			}
 
 			/* disable all other button*/
