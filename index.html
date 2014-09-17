@@ -6,7 +6,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="css/custom-styles.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="css/jPushMenu.css" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico">
 	</head>
@@ -25,15 +24,14 @@
               <div class="carousel-inner">
                   <div class="item dark-background active">
                     <div class="container">
-                      <div id="dimmer1"></div>
                       <h1 class="home-heading-position" style="color:white"><strong>Michael Deng</strong></h1>
 
                 <!-- Push menu button -->
                       <div class="main">
                           <section>
                               <!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
-                              <div class="toggle-menu menu-left push-body">
-                                <div class="btn" id="btn-home-page" onclick="dim1();">Menu</div>
+                              <div class="toggle-slide-left1 toggle-menu menu-left push-body">
+                                <div class="btn" id="btn-home-page">Menu</div>
                               </div>
                           </section>
                       </div>
@@ -43,7 +41,6 @@
 
                   <div class="item light-background">
                     <div class="container">
-                      <div id="dimmer2"></div>
                       <h1 class="heading-position"><strong>About Me</strong></h1>
                       <h3 class="caption-position">My name is Michael Deng, and I am from Calgary, Alberta, Canada. For college, I left the cold Alberta plains for sunny California to attend the University of California, Berkeley. I have always been immensely interested in technology, and I am currently pursuing a degree in Electrical Engineering and Computer Science.</h3>
                       <h1 class="caption-position"></h1>
@@ -52,8 +49,8 @@
                       <div class="main">
                           <section>
                               <!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
-                              <div class="toggle-menu menu-left push-body">
-                                <div class="btn" onclick="dim2();">Menu</div>
+                              <div class="toggle-slide-left2 toggle-menu menu-left push-body">
+                                <div class="btn">Menu</div>
                               </div>
                           </section>
                       </div>
@@ -63,7 +60,6 @@
 
                   <div class="item light-background">
                     <div class="container">
-                      <div id="dimmer3"></div>
                       <h1 class="heading-position"><strong>Experience</strong></h1>
                       <h3 class="caption-position">I am currently working on a research project that uses web-scraping, machine learning, and data visualization to analyze different markets. I am also a Technology Director of the Alpha Kappa Psi professional fraternity, helping in the improvement of the fraternity website, www.calakpsi.com.</h3>
                       <h3 class="caption-position"></h3>
@@ -73,8 +69,8 @@
                       <div class="main">
                           <section>
                               <!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
-                              <div class="toggle-menu menu-left push-body">
-                                <div class="btn" onclick="dim3();">Menu</div>
+                              <div class="toggle-slide-left3 toggle-menu menu-left push-body">
+                                <div class="btn">Menu</div>
                               </div>
                           </section>
                       </div>
@@ -84,7 +80,6 @@
 
                   <div class="item light-background">
                     <div class="container">
-                      <div id="dimmer4"></div>
                       <h1 class="heading-position"><strong>PROJECTS</strong></h1>
                       <h3 class="caption-position">In Java, I have developed a game called Dots, a Huffman Encoding Compression software, and a sliding block puzzle. In python, I have designed a tower defense game, a twitter trends analyzer, and a Scheme interpreter.</h3>
                       <h3 class="caption-position"></h3>
@@ -94,8 +89,8 @@
                       <div class="main">
                           <section>
                               <!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
-                              <div class="toggle-menu menu-left push-body">
-                                <div class="btn" onclick="dim4();">Menu</div>
+                              <div class="toggle-slide-left4 toggle-menu menu-left push-body">
+                                <div class="btn">Menu</div>
                               </div>
                           </section>
                       </div>
@@ -105,7 +100,6 @@
 
                   <div class="item light-background">
                     <div class="container">
-                      <div id="dimmer5"></div>
                       <h1 class="heading-position"><strong>Other</strong></h1>
                       <h3 class="caption-position">I really enjoy playing indoor and beach volleyball, having played for many years on club teams, school teams, and most recently UC Berkeley's varsity team. In my free time, I enjoy backpacking, playing cards, and watching Game of Thrones.</h3>
                       <h3 class="caption-position"></h3>
@@ -115,8 +109,8 @@
                       <div class="main">
                           <section>
                               <!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
-                              <div class="toggle-menu menu-left push-body">
-                                <div class="btn" onclick="dim5();">Menu</div>
+                              <div class="toggle-slide-left5 toggle-menu menu-left push-body">
+                                <div class="btn">Menu</div>
                               </div>
                           </section>
                       </div>
@@ -137,18 +131,17 @@
               <a class="right carousel-control" href="#myCarousel" data-slide="next">
                   <span class="glyphicon glyphicon-chevron-right"></span>
               </a>
-        -->
-          </div>
+        
+          </div> -->
 
         <!-- Push Menu -->
 
           <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left">
-              <h3><a href='#' onClick="javascript:goToSlide(0);"><img src="https://scontent-a-sjc.xx.fbcdn.net/hphotos-xaf1/t31.0-8/1008520_10201150433863534_1022817587_o.jpg"></img></a>
-              </h3>
-              <a href='#' class="menu-buttons" onClick="javascript:goToSlide(1);">ABOUT ME</a>
-              <a href="#" class="menu-buttons" onClick="javascript:goToSlide(2);">EXPERIENCE</a>
-              <a href="#" class="menu-buttons" onClick="javascript:goToSlide(3);">PROJECTS</a>
-              <a href="#" class="menu-buttons" onClick="javascript:goToSlide(4);">OTHER</a>
+              <h3><a href='#' class="button1" onClick="javascript:goToSlide(0);"><img src="https://scontent-a-sjc.xx.fbcdn.net/hphotos-xaf1/t31.0-8/1008520_10201150433863534_1022817587_o.jpg"></img></a></h3>
+              <a href='#' class="button2 menu-buttons" onClick="javascript:goToSlide(1);">ABOUT ME</a>
+              <a href="#" class="button3 menu-buttons" onClick="javascript:goToSlide(2);">EXPERIENCE</a>
+              <a href="#" class="button4 menu-buttons" onClick="javascript:goToSlide(3);">PROJECTS</a>
+              <a href="#" class="button5 menu-buttons" onClick="javascript:goToSlide(4);">OTHER</a>
               <a href="https://www.linkedin.com/pub/michael-deng/84/b9a/8bb" class="fa fa-linkedin-square fa-lg social-media" id="linkedin"></a>
               <a href="https://github.com/mikedeng" class="fa fa-github-square fa-lg social-media" id="github"></a>
               <a href="https://www.facebook.com/michael.deng.90?ref=tn_tnmn"class="fa fa-facebook-square fa-lg social-media" id="facebook"></a>
@@ -158,11 +151,6 @@
           <script src="http://code.jquery.com/jquery.min.js"></script>
           <script src="js/bootstrap.min.js"></script>
           <script src="js/custom-scripts.js"></script>
-          <script src="js/jPushMenu.js"></script>
-          <script>
-            jQuery(document).ready(function($) {
-              $('.toggle-menu').jPushMenu();
-            });
-          </script>
+          <script src="bower_components/classie/classie.js"></script>
 	</body>
 </html>
