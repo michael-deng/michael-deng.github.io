@@ -145,19 +145,19 @@ html, body {
 }
 
 #linkedin {
-	float: left;
-	margin-left: 5.3em;
+	margin: 2em 0.65em 2em 5.3em;
 }
 
 #github {
-	float: none;
-	margin: 0em 2.68em 0 2.68em;
-	margin-top: 2.06em;
+	margin: 2em 0.65em 2em 0.65em;
 }
 
 #facebook {
-	float: right;
-	margin-right: 5.3em;
+	margin: 2em 0.65em 2em 0.65em;
+}
+
+#resume {
+	margin: 2em 5.3em 2em 0.65em;
 }
 
 .social-media:hover {
