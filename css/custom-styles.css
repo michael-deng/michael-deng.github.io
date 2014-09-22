@@ -21,7 +21,7 @@ html, body {
 	background: #000000;
 }
 .carousel .carousel-inner .light-background {
-	background: #F0F0F0;
+	background: url('http://imgur.com/iwmJLlj');
 }
 
 /* Fade transition */
@@ -130,6 +130,25 @@ html, body {
 	color: white;
 	border-color: white;
 	text-decoration: none;
+}
+
+/* Hyperlink Effects */
+
+.hyperlink {
+	text-decoration: none;
+	padding: 1% 0.5% 0% 0.5%;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	color: #990000;
+	transition: color .2s ease-out, background 0.5s ease-in;
+}
+
+.hyperlink:hover {
+	color: #FFFFFF;
+	background-color: #336699;
+	text-shadow: none;
 }
 
 /* Social media icons */
