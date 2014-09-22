@@ -18,10 +18,11 @@ html, body {
 	z-index: 10;
 }
 .carousel .carousel-inner .dark-background {
-	background: #000000;
+	background: url('http://i.imgur.com/iwmJLlj.png');
+	background-position: center; 
 }
 .carousel .carousel-inner .light-background {
-	background: url('http://imgur.com/iwmJLlj');
+	background: #F0F0F0;
 }
 
 /* Fade transition */
