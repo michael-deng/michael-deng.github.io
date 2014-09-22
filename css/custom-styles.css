@@ -143,7 +143,7 @@ html, body {
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
-	color: #B82E00;
+	color: #8F2400;
 	transition: color .2s ease-out, background 0.5s ease-in;
 	font-weight: 600;
 }
