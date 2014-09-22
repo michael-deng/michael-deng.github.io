@@ -74,7 +74,8 @@ html, body {
     text-align: center;
     color: black;
     font-size: 500%;
-    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-family: 'Josefin Slab', serif; font-weight: 700;
+    font-variant: small-caps;
 }
 
 .caption-position {
@@ -85,7 +86,7 @@ html, body {
     line-height: 200%;
     color: black;
     font-size: 150%;
-    font-family: Papyrus, fantasy;
+    font-family: 'Josefin Slab', serif; font-weight: 400;
 }
 
 /* Menu icon */
@@ -137,13 +138,14 @@ html, body {
 
 .hyperlink {
 	text-decoration: none;
-	padding: 1% 0.5% 0% 0.5%;
+	padding: 0.5% 0.5% 0% 0.5%;
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
-	color: #990000;
+	color: #B82E00;
 	transition: color .2s ease-out, background 0.5s ease-in;
+	font-weight: 600;
 }
 
 .hyperlink:hover {
