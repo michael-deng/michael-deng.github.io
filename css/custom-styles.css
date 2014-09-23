@@ -18,8 +18,11 @@ html, body {
 	z-index: 10;
 }
 .carousel .carousel-inner .dark-background {
-	background: url('http://i.imgur.com/iwmJLlj.png');
-	background-position: center; 
+	background: url('http://i.imgur.com/3uXIqAt.png') no-repeat center center fixed;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;    
+    -o-background-size: cover;      
+    background-size: cover;    
 }
 .carousel .carousel-inner .light-background {
 	background: #F0F0F0;
