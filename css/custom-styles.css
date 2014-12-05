@@ -32,7 +32,7 @@ html, body {
     background-size: cover;    
 }
 .carousel .carousel-inner .light-background {
-	background: url('http://i.imgur.com/y3im0Zu.jpg') no-repeat center center fixed;
+	background: url('http://i.imgur.com/8BtZAdS.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover; 
     -moz-background-size: cover;    
     -o-background-size: cover;      
@@ -86,7 +86,7 @@ html, body {
     padding: 12% 10% 3% 10%;
     margin: 0 auto 0 auto;
     text-align: center;
-    color: #A32900;
+    color: white;
     font-size: 600%;
     font-family: MyUnderwood,'Josefin Slab', serif; font-weight: 700;
     font-variant: small-caps;
@@ -98,7 +98,7 @@ html, body {
 	margin: 0% 18% 0% 18%;
     text-align: left;
     line-height: 200%;
-    color: #A32900;
+    color: white;
     font-size: 150%;
     font-family: 'Josefin Slab', serif; font-weight: 400;
 }
@@ -113,14 +113,14 @@ html, body {
   	transition-duration: 0.3s;
     position: absolute;         
     margin-right: 3%; 
-    border: 0.2em solid black;
+    border: 0.2em solid white;
     border-radius: 0.3em;
     height: 2.5em; 
     width: 5em; 
 	top: 3.6%;
 	left: 2.4%;
 	text-align: center;
-	color: #A32900;
+	color: white;
 	font-family: MyUnderwood, 'Open Sans', sans-serif;
 }
 
@@ -130,7 +130,7 @@ html, body {
 	-ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
   	transition-duration: 0.3s;
-	border: 0.2em solid black;
+	border: 0.2em solid white;
 	color: white;
 }
 
@@ -138,12 +138,12 @@ html, body {
 
 .btn:hover {
 	color: black;
-	border-color: white;
+	border-color: black;
 	text-decoration: none;
 }
 
 #btn-home-page:hover {
-	color: white;
+	color: black;
 	border-color: black;
 	text-decoration: none;
 }
@@ -157,14 +157,14 @@ html, body {
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
-	color: green;
+	color: yellow;
 	transition: color .2s ease-out, background 0.5s ease-in;
 	font-weight: 600;
 }
 
 .hyperlink:hover {
 	color: #FFFFFF;
-	background-color: #336699;
+	background-color: #B22222;
 	text-shadow: none;
 }
 
@@ -227,9 +227,9 @@ html, body {
 }
 
 .cbp-spmenu h3 img {
-	height: 129.5%;
-	margin-left: -0.59em;
-	margin-top: -0.55em;
+	height: 129.7%;
+	margin-left: -0.588em;
+	margin-top: -0.551em;
 }
 
 .cbp-spmenu a.menu-buttons {
@@ -261,8 +261,6 @@ html, body {
 }
 
 .cbp-spmenu h3:hover {
-	height: 4.25em;
-	width: 4.25em;
 	text-decoration: none;
 }
 
