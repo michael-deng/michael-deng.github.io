@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: MyUnderwood;
-	src: url('fonts/MyUnderwood.ttf');
+	src: url(fonts/'MyUnderwood.ttf');
 }
 
 /* Carousel background */
@@ -25,7 +25,7 @@ html, body {
 	z-index: 10;
 }
 .carousel .carousel-inner .dark-background {
-	background: url('http://i.imgur.com/3uXIqAt.png') no-repeat center center fixed;
+	background: url('http://i.imgur.com/nzk8ygV.jpg') no-repeat center center fixed;
     -webkit-background-size: cover; 
     -moz-background-size: cover;    
     -o-background-size: cover;      
@@ -74,7 +74,7 @@ html, body {
     text-align: center;
     color: black;
     font-size: 600%;
-    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-family: MyUnderwood, Copperplate, "Copperplate Gothic Light", fantasy, serif;
 }
 
 .heading-position {
@@ -126,7 +126,7 @@ html, body {
 	-ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
   	transition-duration: 0.3s;
-	border: 0.2em solid #999999;
+	border: 0.2em solid white;
 	color: white;
 }
 
@@ -140,7 +140,7 @@ html, body {
 
 #btn-home-page:hover {
 	color: white;
-	border-color: white;
+	border-color: black;
 	text-decoration: none;
 }
 
