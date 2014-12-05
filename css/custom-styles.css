@@ -4,6 +4,10 @@
 	font-family: MyUnderwood;
 	src: url(fonts/'MyUnderwood.ttf');
 }
+@font-face {
+	font-family: Truskey;
+	src: url(fonts/'Truskey.ttf');
+}
 
 /* Carousel background */
 
@@ -25,14 +29,18 @@ html, body {
 	z-index: 10;
 }
 .carousel .carousel-inner .dark-background {
-	background: url('http://i.imgur.com/nzk8ygV.jpg') no-repeat center center fixed;
+	background: url('http://i.imgur.com/wGahMvj.jpg') no-repeat center center fixed;
     -webkit-background-size: cover; 
     -moz-background-size: cover;    
     -o-background-size: cover;      
     background-size: cover;    
 }
 .carousel .carousel-inner .light-background {
-	background: #F0F0F0;
+	background: url('http://i.imgur.com/y3im0Zu.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover; 
+    -moz-background-size: cover;    
+    -o-background-size: cover;      
+    background-size: cover;    
 }
 
 /* Fade transition */
@@ -73,8 +81,8 @@ html, body {
     margin: 0 auto 0 auto;
     text-align: center;
     color: black;
-    font-size: 600%;
-    font-family: MyUnderwood, Copperplate, "Copperplate Gothic Light", fantasy, serif;
+    font-size: 650%;
+    font-family: MyUnderwood, 'Open Sans', sans-serif;
 }
 
 .heading-position {
@@ -83,8 +91,8 @@ html, body {
     margin: 0 auto 0 auto;
     text-align: center;
     color: black;
-    font-size: 500%;
-    font-family: 'Josefin Slab', serif; font-weight: 700;
+    font-size: 600%;
+    font-family: MyUnderwood,'Josefin Slab', serif; font-weight: 700;
     font-variant: small-caps;
 }
 
@@ -108,8 +116,8 @@ html, body {
     -o-transition-duration: 0.3s;
   	transition-duration: 0.3s;
     position: absolute;         
-    margin-right: 2%; 
-    border: 0.2em solid #777777;
+    margin-right: 3%; 
+    border: 0.2em solid black;
     border-radius: 0.3em;
     height: 2.5em; 
     width: 5em; 
@@ -117,7 +125,7 @@ html, body {
 	left: 2.4%;
 	text-align: center;
 	color: black;
-	font-family: Copperplate, "Copperplate Gothic Light", fantasy;        
+	font-family: MyUnderwood, 'Open Sans', sans-serif;
 }
 
 #btn-home-page {
@@ -134,7 +142,7 @@ html, body {
 
 .btn:hover {
 	color: black;
-	border-color: black;
+	border-color: white;
 	text-decoration: none;
 }
 
@@ -224,7 +232,7 @@ html, body {
 }
 
 .cbp-spmenu h3 img {
-	height: 160%;
+	height: 110%;
 	margin-left: -0.1em;
 }
 
@@ -244,7 +252,7 @@ html, body {
 	width: 12em;
 	margin: 2em auto 0em auto;
 	padding-top: 0.7em;
-	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-family: Truskey, 'Open Sans', sans-serif;
 }
 
 
