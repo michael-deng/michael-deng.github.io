@@ -1,3 +1,10 @@
+/* Font */
+
+@font-face {
+	font-family: MyUnderwood;
+	src: url('fonts/MyUnderwood.ttf');
+}
+
 /* Carousel background */
 
 html, body {
@@ -18,7 +25,7 @@ html, body {
 	z-index: 10;
 }
 .carousel .carousel-inner .dark-background {
-	background: url('http://i.imgur.com/3uXIqAt.png') no-repeat center center fixed;
+	background: url('images/VintageBackground.jpg');
     -webkit-background-size: cover; 
     -moz-background-size: cover;    
     -o-background-size: cover;      
