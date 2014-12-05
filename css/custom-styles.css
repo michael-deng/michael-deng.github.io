@@ -4,10 +4,6 @@
 	font-family: MyUnderwood;
 	src: url(fonts/'MyUnderwood.ttf');
 }
-@font-face {
-	font-family: Truskey;
-	src: url(fonts/'Truskey.ttf');
-}
 
 /* Carousel background */
 
@@ -80,7 +76,7 @@ html, body {
     padding: 27% 10% 3% 10%;
     margin: 0 auto 0 auto;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 650%;
     font-family: MyUnderwood, 'Open Sans', sans-serif;
 }
@@ -90,7 +86,7 @@ html, body {
     padding: 12% 10% 3% 10%;
     margin: 0 auto 0 auto;
     text-align: center;
-    color: black;
+    color: #A32900;
     font-size: 600%;
     font-family: MyUnderwood,'Josefin Slab', serif; font-weight: 700;
     font-variant: small-caps;
@@ -102,7 +98,7 @@ html, body {
 	margin: 0% 18% 0% 18%;
     text-align: left;
     line-height: 200%;
-    color: black;
+    color: #A32900;
     font-size: 150%;
     font-family: 'Josefin Slab', serif; font-weight: 400;
 }
@@ -124,7 +120,7 @@ html, body {
 	top: 3.6%;
 	left: 2.4%;
 	text-align: center;
-	color: black;
+	color: #A32900;
 	font-family: MyUnderwood, 'Open Sans', sans-serif;
 }
 
@@ -134,7 +130,7 @@ html, body {
 	-ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
   	transition-duration: 0.3s;
-	border: 0.2em solid white;
+	border: 0.2em solid black;
 	color: white;
 }
 
@@ -161,7 +157,7 @@ html, body {
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
-	color: #A32900;
+	color: green;
 	transition: color .2s ease-out, background 0.5s ease-in;
 	font-weight: 600;
 }
@@ -181,23 +177,22 @@ html, body {
     -o-transition-duration: 0.3s;
   	transition-duration: 0.3s;
 	color: gray;
-	margin-top: 2em;
 }
 
 #linkedin {
-	margin: 2em 0.65em 2em 5.3em;
+	margin: 2.5em 0.65em 2em 5.3em;
 }
 
 #github {
-	margin: 2em 0.65em 2em 0.65em;
+	margin: 2.5em 0.65em 2em 0.65em;
 }
 
 #facebook {
-	margin: 2em 0.65em 2em 0.65em;
+	margin: 2.5em 0.65em 2em 0.65em;
 }
 
 #resume {
-	margin: 2em 5.3em 2em 0.65em;
+	margin: 2.5em 5.3em 2em 0.65em;
 }
 
 .social-media:hover {
@@ -210,6 +205,7 @@ html, body {
 
 .cbp-spmenu {
 	background: #111111;
+	background-color:rgba(0,0,0,0.35);
 	position: fixed;
 }
 
@@ -219,11 +215,10 @@ html, body {
 	-ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
   	transition-duration: 0.3s;
-	color: white;
+	color: #A32900;
 	font-size: 2.5em;
 	margin: 2.5em auto 1em auto;
 	font-weight: 300;
-	background: #000000;
 	text-align: center;
 	height: 4em;
 	width: 4em;
@@ -232,8 +227,9 @@ html, body {
 }
 
 .cbp-spmenu h3 img {
-	height: 110%;
-	margin-left: -0.1em;
+	height: 129.5%;
+	margin-left: -0.59em;
+	margin-top: -0.55em;
 }
 
 .cbp-spmenu a.menu-buttons {
@@ -243,16 +239,16 @@ html, body {
     -o-transition-duration: 0.3s;
   	transition-duration: 0.3s;
 	display: block;
-	color: #fff;
-	font-size: 0.9em;
+	color: white;
+	font-size: 1em;
 	font-weight: 300;
 	text-align: center;
-	border: 0.1em solid gray;
+	border-bottom: 0.1em solid gray;
 	height: 3em;
 	width: 12em;
 	margin: 2em auto 0em auto;
-	padding-top: 0.7em;
-	font-family: Truskey, 'Open Sans', sans-serif;
+	padding-top: 1em;
+	font-family: MyUnderwood, 'Open Sans', sans-serif;
 }
 
 
@@ -328,7 +324,7 @@ html, body {
     z-index: 15;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 body.sml-open nav.cbp-spmenu-left {
