@@ -5,6 +5,31 @@
 	src: url(fonts/'MyUnderwood.ttf');
 }
 
+/* Large desktops and laptops */
+@media (min-width: 1150px) {
+  body{font-size:16px;}
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  body{font-size:14px;}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  body{font-size:12px;}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  body{font-size:10px;}
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+  body{font-size:8px;}
+}
+
 /* Carousel background */
 
 html, body {
@@ -26,17 +51,17 @@ html, body {
 }
 .carousel .carousel-inner .dark-background {
 	background: url('http://i.imgur.com/wGahMvj.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover; 
-    -moz-background-size: cover;    
-    -o-background-size: cover;      
-    background-size: cover;    
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;    
+  -o-background-size: cover;      
+  background-size: cover;    
 }
 .carousel .carousel-inner .light-background {
 	background: url('http://i.imgur.com/X2PU0Z9.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover; 
-    -moz-background-size: cover;    
-    -o-background-size: cover;      
-    background-size: cover;    
+  -moz-background-size: cover;    
+  -o-background-size: cover;      
+  background-size: cover;    
 }
 
 /* Fade transition */
@@ -72,35 +97,33 @@ html, body {
 /* Positioning */
 
 .home-heading-position {
-    position: static;
-    padding: 27% 10% 3% 10%;
-    margin: 0 auto 0 auto;
-    text-align: center;
-    color: white;
-    font-size: 650%;
-    font-family: MyUnderwood, 'Open Sans', sans-serif;
+  position: static;
+  padding: 27% 10% 3% 10%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 650%;
+  font-family: MyUnderwood, 'Open Sans', sans-serif;
 }
 
 .heading-position {
-    position: static;
-    padding: 12% 10% 3% 10%;
-    margin: 0 auto 0 auto;
-    text-align: center;
-    color: white;
-    font-size: 600%;
-    font-family: MyUnderwood,'Josefin Slab', serif; font-weight: 700;
-    font-variant: small-caps;
+  position: static;
+  margin: 1em auto 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 600%;
+  font-family: MyUnderwood,'Josefin Slab', serif; font-weight: 700;
+  font-variant: small-caps;
 }
 
 .caption-position {
 	position: static;
-	padding: 0% 0% 3% 0%;
-	margin: 0% 18% 0% 18%;
-    text-align: left;
-    line-height: 200%;
-    color: white;
-    font-size: 150%;
-    font-family: 'Josefin Slab', serif; font-weight: 400;
+	margin: 0.5em 15% 0% 15%;
+  text-align: left;
+  line-height: 200%;
+  color: white;
+  font-size: 150%;
+  font-family: 'Josefin Slab', serif; font-weight: 400;
 }
 
 /* Menu icon */
@@ -109,27 +132,24 @@ html, body {
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
 	-ms-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-  	transition-duration: 0.3s;
-    position: absolute;         
-    margin-right: 3%; 
-    border: 0.2em solid white;
-    border-radius: 0.3em;
-    height: 2.5em; 
-    width: 5em; 
-	top: 3.6%;
-	left: 2.4%;
+  -o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+  position: absolute;         
+  margin: 0;
+  padding: 0.5em 0 0 0;
+  border: 0.2em solid white;
+  border-radius: 0.3em;
+  height: 2.5em; 
+  width: 5em;
+  font-size: 100%;
+	top: 2em;
+	left: 2em;
 	text-align: center;
 	color: white;
 	font-family: MyUnderwood, 'Open Sans', sans-serif;
 }
 
 #btn-home-page {
-	-webkit-transition-duration: 0.3s;
-	-moz-transition-duration: 0.3s;
-	-ms-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-  	transition-duration: 0.3s;
 	border: 0.2em solid white;
 	color: white;
 }
@@ -151,15 +171,15 @@ html, body {
 /* Hyperlink Effects */
 
 .hyperlink {
-	text-decoration: none;
+	text-decoration: underline;
 	padding: 0.5% 0.5% 0% 0.5%;
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
-	color: #E6C200;
 	transition: color .2s ease-out, background 0.5s ease-in;
 	font-weight: 600;
+	color: #FFFFFF;
 }
 
 .hyperlink:hover {
@@ -174,8 +194,8 @@ html, body {
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
 	-ms-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-  	transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
 	color: gray;
 }
 
@@ -213,8 +233,8 @@ html, body {
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
 	-ms-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-  	transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
 	color: #A32900;
 	font-size: 2.5em;
 	margin: 2.5em auto 1em auto;
@@ -236,8 +256,8 @@ html, body {
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
 	-ms-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-  	transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
 	display: block;
 	color: white;
 	font-size: 1em;
@@ -255,7 +275,7 @@ html, body {
 /* Highlight menu options on hover */
 
 .cbp-spmenu a:hover {
-  	color: white;
+  color: white;
 	border-color: white;
 	text-decoration: none;
 }
@@ -316,13 +336,13 @@ html, body {
 /* Mask */
 
 .mask {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 15;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 body.sml-open nav.cbp-spmenu-left {
