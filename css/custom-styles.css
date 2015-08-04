@@ -5,22 +5,22 @@
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
-  body{font-size:14px;}
+  body{font-size:15px;}
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-  body{font-size:12px;}
+  body{font-size:14px;}
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-  body{font-size:10px;}
+  body{font-size:13px;}
 }
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
-  body{font-size:8px;}
+  body{font-size:12px;}
 }
 
 /* Carousel background */
