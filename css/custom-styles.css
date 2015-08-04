@@ -87,7 +87,7 @@ html, body {
 	z-index:1;
 }
 
-/* Positioning */
+/* Content positioning */
 
 .home-heading-position {
   position: static;
@@ -96,7 +96,7 @@ html, body {
   text-align: center;
   color: white;
   font-size: 650%;
-  font-family: 'Josefin Slab', 'Open Sans', sans-serif;
+  font-family: 'Josefin Slab', serif;
   font-weight: 600;
 }
 
@@ -121,6 +121,33 @@ html, body {
   font-family: 'Josefin Slab', serif; font-weight: 400;
 }
 
+@media (max-width: 767px) {
+	.caption-position {
+		line-height: 160%;
+		margin: 0.5em 5% 0% 5%;
+	}
+}
+
+.caption-position.projects-caption {
+	font-size: 125%; 
+	line-height: 140%; 
+	margin-left: 5%; 
+	margin-right: 5%;
+	margin-top: 0;
+}
+
+.caption-position p span {
+	color: #d6b55f; 
+	font-weight: 600;
+	font-size: 110%;
+}
+
+@media (max-width: 767px) {
+	.caption-position.projects-caption {
+		font-size: 120%;
+	}
+}
+
 /* Menu icon */
 
 .btn { 
@@ -141,7 +168,7 @@ html, body {
 	left: 2em;
 	text-align: center;
 	color: white;
-	font-family: 'Josefin Slab', 'Open Sans', sans-serif;
+	font-family: 'Josefin Slab', serif;
 }
 
 #btn-home-page {
@@ -179,7 +206,6 @@ html, body {
 
 .hyperlink:hover {
 	color: #FFFFFF;
-	background-color: #B22222;
 	text-shadow: none;
 }
 
@@ -263,7 +289,7 @@ html, body {
 	width: 12em;
 	margin: 2em auto 0em auto;
 	padding-top: 1em;
-	font-family: 'Josefin Slab', 'Open Sans', sans-serif;
+	font-family: 'Josefin Slab', serif;
 }
 
 
