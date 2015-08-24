@@ -136,7 +136,7 @@ html, body {
 }
 
 .caption-position.projects-caption {
-	font-size: 125%; 
+	font-size: 120%; 
 	line-height: 140%; 
 	margin-left: 5%; 
 	margin-right: 5%;
@@ -151,7 +151,7 @@ html, body {
 
 @media (max-width: 767px) {
 	.caption-position.projects-caption {
-		font-size: 120%;
+		font-size: 110%;
 	}
 }
 
