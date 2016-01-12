@@ -42,12 +42,12 @@ html, body {
 .carousel-caption {
 	z-index: 10;
 }
-.carousel .carousel-inner .dark-background {
+/*.carousel .carousel-inner .dark-background {
 	background: url('http://i.imgur.com/wGahMvj.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover;    
-  -o-background-size: cover;      
-  background-size: cover;    
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .carousel .carousel-inner .light-background {
 	background: url('http://i.imgur.com/X2PU0Z9.jpg') no-repeat center center fixed;
@@ -56,7 +56,7 @@ html, body {
   -o-background-size: cover;      
   background-size: cover;    
 }
-
+*/
 /* Fade transition */
 
 .carousel .item {
@@ -94,7 +94,6 @@ html, body {
   padding: 25% 10% 3% 10%;
   margin: 0 auto 0 auto;
   text-align: center;
-  color: white;
   font-size: 650%;
   font-family: 'Josefin Slab', serif;
   font-weight: 600;
@@ -104,7 +103,6 @@ html, body {
   position: static;
   margin: 1em auto 0.3em auto;
   text-align: center;
-  color: white;
   font-size: 600%;
   font-family: 'Josefin Slab', serif; 
   font-weight: 600;
@@ -116,7 +114,6 @@ html, body {
 	margin: 0.5em 15% 0% 15%;
   text-align: left;
   line-height: 200%;
-  color: white;
   font-size: 150%;
   font-family: 'Josefin Slab', serif; font-weight: 400;
 }
@@ -144,7 +141,6 @@ html, body {
 }
 
 .caption-position p span {
-	color: #d6b55f; 
 	font-weight: 600;
 	font-size: 110%;
 }
@@ -166,7 +162,7 @@ html, body {
   position: absolute;         
   margin: 0;
   padding: 0.5em 0 0 0;
-  border: 0.2em solid white;
+  border: 0.2em solid;
   border-radius: 0.3em;
   height: 2.5em; 
   width: 5em;
@@ -174,26 +170,15 @@ html, body {
 	top: 2em;
 	left: 2em;
 	text-align: center;
-	color: white;
 	font-family: 'Josefin Slab', serif;
 }
 
-#btn-home-page {
-	border: 0.2em solid white;
-	color: white;
-}
 
 /* Menu Button Hover Effects */
 
 .btn:hover {
-	color: black;
-	border-color: black;
-	text-decoration: none;
-}
-
-#btn-home-page:hover {
-	color: black;
-	border-color: black;
+	color: #007bb6;
+	border-color: #007bb6;
 	text-decoration: none;
 }
 
@@ -208,11 +193,11 @@ html, body {
 	transition: 0.5s;
 	transition: color .2s ease-out, background 0.5s ease-in;
 	font-weight: 600;
-	color: #FFFFFF;
+	color: black;
 }
 
 .hyperlink:hover {
-	color: #FFFFFF;
+	color: #007bb6;
 	text-shadow: none;
 }
 
