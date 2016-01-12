@@ -91,12 +91,28 @@ html, body {
 
 .home-heading-position {
   position: static;
-  padding: 25% 10% 3% 10%;
+  padding-top: 2.3em;
   margin: 0 auto 0 auto;
   text-align: center;
   font-size: 650%;
   font-family: 'Josefin Slab', serif;
   font-weight: 600;
+}
+
+.thumbnails {
+	text-align: center;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.thumbnails img {
+	margin: 0.45em 0.45em 0.45em 0.45em;
+}
+
+.icons {
+	padding: 0;
+	margin: -2em auto;
+	text-align: center;
 }
 
 .heading-position {
@@ -130,6 +146,11 @@ html, body {
 		line-height: 160%;
 		margin: 0.5em 7% 0% 7%;
 	}
+}
+
+.caption-position#about-caption {
+	font-size: 140%;
+	line-height: 160%;
 }
 
 .caption-position.projects-caption {
@@ -171,6 +192,7 @@ html, body {
 	left: 2em;
 	text-align: center;
 	font-family: 'Josefin Slab', serif;
+	font-weight: 600;
 }
 
 
@@ -185,7 +207,6 @@ html, body {
 /* Hyperlink Effects */
 
 .hyperlink {
-	text-decoration: underline;
 	padding: 0.5% 0.5% 0% 0.5%;
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
@@ -209,11 +230,11 @@ html, body {
 	-ms-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
 	transition-duration: 0.3s;
-	color: gray;
+	color: black;
 }
 
 #linkedin {
-	margin: 2.5em 0.65em 2em 5.3em;
+	margin: 2.5em 0.65em 2em 0em;
 }
 
 #github {
@@ -225,11 +246,11 @@ html, body {
 }
 
 #resume {
-	margin: 2.5em 5.3em 2em 0.65em;
+	margin: 2.5em 0em 2em 0.65em;
 }
 
 .social-media:hover {
-	color: white;
+	color: #007bb6;
 	cursor: pointer; cursor: hand;
 	text-decoration: none;
 }
@@ -238,8 +259,9 @@ html, body {
 
 .cbp-spmenu {
 	background: #111111;
-	background-color:rgba(0,0,0,0.35);
+	background-color:rgba(0,0,0,0.5);
 	position: fixed;
+	width: 12em !important;
 }
 
 .cbp-spmenu h3 {
@@ -273,14 +295,12 @@ html, body {
 	transition-duration: 0.3s;
 	display: block;
 	color: white;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	font-weight: 300;
-	text-align: center;
-	border-bottom: 0.1em solid gray;
-	height: 3em;
-	width: 12em;
-	margin: 1.5em auto 0em auto;
-	padding-top: 1em;
+	/*text-align: center;*/
+	/*border-bottom: 0.1em solid gray;*/
+	margin: 0em auto 0em auto;
+	padding: 1em 2.5em 1em 2.5em;
 	font-family: 'Josefin Slab', serif;
 }
 
@@ -288,8 +308,8 @@ html, body {
 /* Highlight menu options on hover */
 
 .cbp-spmenu a:hover {
-  color: white;
-	border-color: white;
+  color: #007bb6;
+	/*border-color: white;*/
 	text-decoration: none;
 }
 
