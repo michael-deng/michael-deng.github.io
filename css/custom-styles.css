@@ -130,12 +130,6 @@ html, body {
   font-variant: small-caps;
 }
 
-@media (max-width: 767px) {
-	.heading-position {
-		margin-top: 0.9em;
-	}
-}
-
 .caption-position {
 	position: static;
 	margin: 0.5em 15% 0% 15%;
@@ -414,6 +408,6 @@ body.sml-open nav.cbp-spmenu-left {
 
 @media (max-width: 767px) {
 	.project-thumbnail {
-		height: 140px;
+		height: 120px;
 	}
 }
