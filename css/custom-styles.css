@@ -134,7 +134,7 @@ html, body {
 	position: static;
 	margin: 0.5em 15% 0% 15%;
   text-align: left;
-  line-height: 200%;
+  line-height: 180%;
   font-size: 150%;
   font-family: 'Josefin Slab', serif; font-weight: 400;
 }
@@ -151,11 +151,6 @@ html, body {
 		line-height: 160%;
 		margin: 0.5em 7% 0% 7%;
 	}
-}
-
-.caption-position#about-caption {
-	font-size: 150%;
-	line-height: 170%;
 }
 
 .caption-position.projects-caption {
