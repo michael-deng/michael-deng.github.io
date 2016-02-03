@@ -132,7 +132,7 @@ html, body {
 
 @media (max-width: 767px) {
 	.heading-position {
-		margin-top: 0.8em;
+		margin-top: 0.9em;
 	}
 }
 
@@ -414,6 +414,6 @@ body.sml-open nav.cbp-spmenu-left {
 
 @media (max-width: 767px) {
 	.project-thumbnail {
-		height: 150px;
+		height: 140px;
 	}
 }
