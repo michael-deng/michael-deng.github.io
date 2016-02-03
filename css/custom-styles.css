@@ -122,12 +122,18 @@ html, body {
 
 .heading-position {
   position: static;
-  margin: 1em auto 0.3em auto;
+  margin: 1em auto 0 auto;
   text-align: center;
   font-size: 600%;
   font-family: 'Josefin Slab', serif; 
   font-weight: 700;
   font-variant: small-caps;
+}
+
+@media (max-width: 767px) {
+	.heading-position {
+		margin-top: 0.8em;
+	}
 }
 
 .caption-position {
@@ -141,8 +147,8 @@ html, body {
 
 @media (max-width: 767px) {
 	.caption-position {
-		line-height: 160%;
-		margin: 0.5em 5% 0% 5%;
+		line-height: 120%;
+		margin: 0.5em 3% 0% 3%;
 	}
 }
 
