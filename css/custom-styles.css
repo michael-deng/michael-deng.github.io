@@ -393,3 +393,21 @@ html, body {
 body.sml-open nav.cbp-spmenu-left {
     left: 0
 }
+
+/* Project pictures */
+
+.project-thumbnail {
+	height: 240px;
+}
+
+@media (max-width: 991px) {
+	.project-thumbnail {
+		height: 200px;
+	}
+}
+
+@media (max-width: 767px) {
+	.project-thumbnail {
+		height: 150px;
+	}
+}
