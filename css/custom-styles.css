@@ -31,10 +31,10 @@ html, body {
 	padding:0;
 }
 .carousel, .item, .active {
-	height: 100%;
+
 }
 .carousel-inner {
-	height: 100%;
+
 }
 .carousel {
 	margin-bottom: 0px;
@@ -122,7 +122,7 @@ html, body {
 
 .heading-position {
   position: static;
-  margin: 1em auto 0 auto;
+  margin: 0.8em auto 0 auto;
   text-align: center;
   font-size: 600%;
   font-family: 'Josefin Slab', serif; 
@@ -163,7 +163,7 @@ html, body {
 
 .projects-caption p {
 	text-align: left;
-	margin: 0.7em auto;
+	margin: 1em auto;
 	width: 19em;
 }
 
