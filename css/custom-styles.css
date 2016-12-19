@@ -111,7 +111,7 @@ html, body {
 
 .icons {
 	padding: 0;
-	margin: auto;
+	margin: 1em auto;
 	text-align: center;
 	font-size: 1.8em;
 }
@@ -242,23 +242,23 @@ html, body {
 }
 
 #linkedin {
-	margin: 1.2em 0.5em 2em 0em;
+	margin: 0 0.5em 2em 0em;
 }
 
 #github {
-	margin: 1.2em 0.5em 2em 0.5em;
+	margin: 0 0.5em 2em 0.5em;
 }
 
 #quora {
-	margin: 1.2em 0.5em 2em 0.5em;
+	margin: 0 0.5em 2em 0.5em;
 }
 
 #medium {
-	margin: 1.2em 0.5em 2em 0.5em;
+	margin: 0 0.5em 2em 0.5em;
 }
 
 #facebook {
-	margin: 1.2em 0em 2em 0.5em;
+	margin: 0 0em 2em 0.5em;
 }
 
 #resume-header {
