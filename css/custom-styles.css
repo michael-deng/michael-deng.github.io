@@ -1,43 +1,38 @@
 /* Large desktops and laptops */
 @media (min-width: 1150px) {
-  body{font-size:16px;}
+  body {font-size: 16px;}
 }
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
-  body{font-size:15px;}
+  body {font-size: 15px;}
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-  body{font-size:14px;}
+  body {font-size: 14px;}
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-  body{font-size:12px;}
+  body {font-size: 12px;}
 }
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
-  body{font-size:10px;}
+  body {font-size: 10px;}
 }
 
 /* Carousel background */
 
 html, body {
-	height:100%;
-	margin:0;
-	padding:0;
-}
-.carousel, .item, .active {
-
-}
-.carousel-inner {
-
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
 }
 .carousel {
-	margin-bottom: 0px;
+	margin-bottom: 5em;
 }
 .carousel-caption {
 	z-index: 10;
@@ -67,24 +62,24 @@ html, body {
 	transition: opacity 0.5s;
 }
 .carousel .active.left {
-	left:0;
-	opacity:0;
-	z-index:2;
+	left: 0;
+	opacity: 0;
+	z-index: 2;
 }
 .carousel .active.right {
-	left:0;
-	opacity:0;
-	z-index:2;
+	left: 0;
+	opacity: 0;
+	z-index: 2;
 }
 .carousel .next {
-	left:0;
-	opacity:1;
-	z-index:1;
+	left: 0;
+	opacity: 1;
+	z-index: 1;
 }
 .carousel .prev {
-	left:0;
-	opacity:1;
-	z-index:1;
+	left: 0;
+	opacity: 1;
+	z-index: 1;
 }
 
 /* Content positioning */
@@ -95,7 +90,6 @@ html, body {
   margin: 0 auto 0 auto;
   text-align: center;
   font-size: 650%;
-  font-family: 'Josefin Slab', serif;
   font-weight: 700;
 }
 
@@ -124,19 +118,19 @@ html, body {
   position: static;
   margin: 0.9em auto 0 auto;
   text-align: center;
-  font-size: 600%;
-  font-family: 'Josefin Slab', serif; 
+  font-size: 500%;
   font-weight: 700;
   font-variant: small-caps;
 }
 
 .caption-position {
 	position: static;
-	margin: 0.7em 15% 0% 15%;
+	margin: 1em 15% 0% 15%;
   text-align: left;
   line-height: 180%;
   font-size: 150%;
-  font-family: 'Josefin Slab', serif; font-weight: 400;
+  font-weight: 400;
+  overflow: auto;
 }
 
 @media (max-width: 767px) {
@@ -188,16 +182,15 @@ html, body {
 	transition-duration: 0.3s;
   position: absolute;         
   margin: 0;
-  padding: 0.5em 0 0 0;
+  padding: 0.4em 0 0 0;
   border: 0.2em solid;
   border-radius: 0.3em;
-  height: 2.5em; 
-  width: 5em;
+  height: 3.2em; 
+  width: 3.5em;
   font-size: 1em;
 	top: 2em;
 	left: 2em;
 	text-align: center;
-	font-family: 'Josefin Slab', serif;
 	font-weight: 700;
 }
 
@@ -256,7 +249,7 @@ html, body {
 	margin: 0 0.5em 2em 0.5em;
 }
 
-#facebook {
+#twitter {
 	margin: 0 0em 2em 0.5em;
 }
 
@@ -333,7 +326,6 @@ html, body {
 	/*border-bottom: 0.1em solid gray;*/
 	margin: 0em auto 0em auto;
 	padding: 1em 2.5em 1em 2.5em;
-	font-family: 'Josefin Slab', serif;
 }
 
 
@@ -411,8 +403,34 @@ html, body {
 }
 
 body.sml-open nav.cbp-spmenu-left {
-    left: 0
+  left: 0
 }
+
+/* Image */
+
+.image-caption {
+	text-align: center;
+	color: #707070;
+	font-size: 0.8em;
+}
+
+/* Experience */
+
+.company-logo {
+	float: left;
+}
+
+.company-logo img {
+	height: 4em;
+}
+
+.company-details {
+	float: left;
+	margin-left: 0.5em;
+	width: calc(100% - 4.5em);
+}
+
+
 
 /* Project pictures */
 
