@@ -91,11 +91,12 @@ html, body {
   text-align: center;
   font-size: 550%;
   font-weight: 700;
+  line-height: 1em;
 }
 
 .icons {
 	padding: 0;
-	margin: 0.8em auto 2em auto;
+	margin: 1.5em auto 2em auto;
 	text-align: center;
 }
 
