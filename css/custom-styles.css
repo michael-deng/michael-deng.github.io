@@ -86,27 +86,79 @@ html, body {
 
 .home-heading-position {
   position: static;
-  padding-top: 2.3em;
+  padding-top: 1em;
   margin: 0 auto 0 auto;
   text-align: center;
-  font-size: 650%;
+  font-size: 550%;
   font-weight: 700;
-}
-
-.thumbnails {
-	text-align: center;
-	margin: 0 0 10px 0;
-	padding: 0;
-}
-
-.thumbnails img {
-	margin: 0.45em 0.45em 0.45em 0.45em;
 }
 
 .icons {
 	padding: 0;
-	margin: 2em auto;
+	margin: 0.8em auto 2em auto;
 	text-align: center;
+}
+
+.medium-heading {
+  width: 700px;
+  max-width: 100%;
+  text-align: center; 
+  border-bottom: 1px solid #000; 
+  line-height: 0.1em;
+  margin: 2em auto 0 auto;
+  font-size: 200%;
+} 
+
+.medium-heading span { 
+  background: #fff;
+  padding: 0 10px; 
+}
+
+.medium-story {
+	width: 700px;
+  max-width: 100%;
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  overflow: auto;
+  border-bottom: 1px solid #000; 
+}
+
+.medium-story a {
+	text-decoration: none;
+	color: black;
+}
+
+.medium-image {
+	float: left;
+}
+
+.medium-image img {
+	width: 11em;
+}
+
+.medium-title {
+	float: left;
+	margin-left: 1em;
+	width: calc(100% - 9em);
+	font-size: 1.4em;
+	font-weight: 700;
+}
+
+.medium-caption {
+	float: left;
+	margin-top: 0.5em;
+	margin-left: 1em;
+	width: calc(100% - 12em);
+}
+
+.email-signup {
+	width: 700px;
+  max-width: 100%;
+	margin: auto;
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 .row div {
@@ -147,11 +199,9 @@ html, body {
 	}
 }
 
-.caption-position.projects-info {
+.projects-info {
 	font-size: 120%; 
-	line-height: 140%; 
-	margin-left: 15px; 
-	margin-right: 15px;
+	line-height: 140%;
 	margin-top: 0;
 }
 
@@ -167,7 +217,7 @@ html, body {
 }
 
 @media (max-width: 767px) {
-	.caption-position.projects-info {
+	.projects-info {
 		font-size: 120%;
 	}
 }
@@ -234,23 +284,23 @@ html, body {
 }
 
 #linkedin {
-	margin: 0 0.5em 2em 0em;
+	margin: 0 0.5em 0 0;
 }
 
 #github {
-	margin: 0 0.5em 2em 0.5em;
+	margin: 0 0.5em 0 0.5em;
 }
 
 #quora {
-	margin: 0 0.5em 2em 0.5em;
+	margin: 0 0.5em 0 0.5em;
 }
 
 #medium {
-	margin: 0 0.5em 2em 0.5em;
+	margin: 0 0.5em 0 0.5em;
 }
 
 #twitter {
-	margin: 0 0em 2em 0.5em;
+	margin: 0 0 0 0.5em;
 }
 
 #resume-header {
@@ -324,7 +374,7 @@ html, body {
 	font-weight: 300;
 	/*text-align: center;*/
 	/*border-bottom: 0.1em solid gray;*/
-	margin: 0em auto 0em auto;
+	margin: 0 auto 0 auto;
 	padding: 1em 2.5em 1em 2.5em;
 }
 
@@ -451,7 +501,7 @@ body.sml-open nav.cbp-spmenu-left {
 	font-style: bold;
 }
 
-.project-thumbnail {
+.image-thumbnail {
 	border: 1px solid #C8C8C8;
 	width: 100%;
 }
