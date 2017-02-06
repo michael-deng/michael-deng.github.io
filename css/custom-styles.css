@@ -149,8 +149,8 @@ html, body {
 .medium-caption {
 	float: left;
 	margin-top: 0.5em;
-	margin-left: 1em;
-	width: calc(100% - 12em);
+	margin-left: 1.4em;
+	width: calc(100% - 12.6em);
 }
 
 .email-signup {
