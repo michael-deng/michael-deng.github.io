@@ -162,6 +162,22 @@ html, body {
 	padding-bottom: 2em;
 }
 
+#mc_embed_signup label {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+}
+
+#mc_embed_signup #mce-EMAIL {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+}
+
+#mc_embed_signup #mc-embedded-subscribe {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
 .row div {
 	text-align: center;
 	margin: 1em 0 1em 0;
