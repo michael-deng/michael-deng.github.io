@@ -55,10 +55,10 @@ html, body {
 /* Fade transition */
 
 .carousel .item {
-	-webkit-transition: opacity 0.5s; 
-	-moz-transition: opacity 0.5s; 
-	-ms-transition: opacity 0.5s; 
-	-o-transition: opacity 0.5s; 
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-ms-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
 	transition: opacity 0.5s;
 }
 .carousel .active.left {
@@ -85,13 +85,13 @@ html, body {
 /* Content positioning */
 
 .home-heading-position {
-  position: static;
-  padding-top: 1em;
-  margin: 0 auto 0 auto;
-  text-align: center;
-  font-size: 550%;
-  font-weight: 700;
-  line-height: 1em;
+    position: static;
+    padding-top: 0.8em;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-size: 550%;
+    font-weight: 700;
+    line-height: 1em;
 }
 
 .icons {
@@ -101,28 +101,28 @@ html, body {
 }
 
 .medium-heading {
-  width: 700px;
-  max-width: 100%;
-  text-align: center; 
-  border-bottom: 1px solid #000; 
-  line-height: 0.1em;
-  margin: 2em auto 0 auto;
-  font-size: 200%;
+    width: 700px;
+    max-width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 2em auto 0 auto;
+    font-size: 200%;
 } 
 
-.medium-heading span { 
-  background: #fff;
-  padding: 0 10px; 
+.medium-heading span {
+    background: #fff;
+    padding: 0 10px;
 }
 
 .medium-story {
 	width: 700px;
-  max-width: 100%;
-  margin: auto;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  overflow: auto;
-  border-bottom: 1px solid #000; 
+    max-width: 100%;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    overflow: auto;
+    border-bottom: 1px solid #000;
 }
 
 .medium-story a {
@@ -155,7 +155,7 @@ html, body {
 
 .email-signup {
 	width: 700px;
-  max-width: 100%;
+    max-width: 100%;
 	margin: auto;
 	text-align: center;
 	padding-top: 2em;
@@ -168,22 +168,22 @@ html, body {
 }
 
 .heading-position {
-  position: static;
-  margin: 0.9em auto 0 auto;
-  text-align: center;
-  font-size: 500%;
-  font-weight: 700;
-  font-variant: small-caps;
+    position: static;
+    margin: 0.5em auto 0 auto;
+    text-align: center;
+    font-size: 500%;
+    font-weight: 700;
+    font-variant: small-caps;
 }
 
 .caption-position {
 	position: static;
 	margin: 1em 15% 0% 15%;
-  text-align: left;
-  line-height: 180%;
-  font-size: 150%;
-  font-weight: 400;
-  overflow: auto;
+    text-align: left;
+    line-height: 180%;
+    font-size: 150%;
+    font-weight: 400;
+    overflow: auto;
 }
 
 @media (max-width: 767px) {
@@ -229,16 +229,16 @@ html, body {
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
 	-ms-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-	transition-duration: 0.3s;
-  position: absolute;         
-  margin: 0;
-  padding: 0.4em 0 0 0;
-  border: 0.2em solid;
-  border-radius: 0.3em;
-  height: 3.1em; 
-  width: 3.4em;
-  font-size: 1em;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    position: absolute;
+    margin: 0;
+    padding: 0.4em 0 0 0;
+    border: 0.2em solid;
+    border-radius: 0.3em;
+    height: 3.1em;
+    width: 3.4em;
+    font-size: 1em;
 	top: 2em;
 	left: 2em;
 	text-align: center;
@@ -279,7 +279,7 @@ html, body {
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
 	-ms-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
 	transition-duration: 0.3s;
 	color: black;
 }
@@ -344,7 +344,7 @@ html, body {
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
 	-ms-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
 	transition-duration: 0.3s;
 	color: #A32900;
 	font-size: 2.5em;
@@ -367,7 +367,7 @@ html, body {
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
 	-ms-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
 	transition-duration: 0.3s;
 	display: block;
 	color: white;
