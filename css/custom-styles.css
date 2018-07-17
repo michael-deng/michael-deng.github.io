@@ -164,7 +164,7 @@ html, body {
 
 #mc_embed_signup label {
     font-family: 'Raleway', sans-serif;
-    padding: 0;
+    padding-bottom: 0;
 }
 
 #mc_embed_signup #mce-EMAIL {
