@@ -177,7 +177,8 @@ html, body {
 #mc_embed_signup #mc-embedded-subscribe {
     font-family: 'Raleway', sans-serif;
     border: 1px solid black;
-    padding: 5px;
+    background: white;
+    color: black;
     font-weight: 700;
 }
 
