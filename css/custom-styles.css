@@ -101,28 +101,27 @@ html, body {
 }
 
 .medium-heading {
-    width: 700px;
-    max-width: 100%;
-    text-align: center;
-    border-bottom: 1px solid #000;
-    line-height: 0.1em;
-    margin: 2em auto 0 auto;
-    font-size: 200%;
+	width: 700px;
+	max-width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	line-height: 0.1em;
+	margin: 2em auto 0 auto;
+	font-size: 200%;
 } 
 
 .medium-heading span {
-    background: #fff;
-    padding: 0 10px;
+	background: #fff;
+	padding: 0 10px;
 }
 
 .medium-story {
 	width: 700px;
-    max-width: 100%;
-    margin: auto;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    overflow: auto;
-    border-bottom: 1px solid #000;
+	max-width: 100%;
+	margin: auto;
+	padding: 2em 0.5em 2em 0.5em;
+	overflow: auto;
+	border-bottom: 1px solid #000;
 }
 
 .medium-story a {
@@ -132,6 +131,7 @@ html, body {
 
 .medium-image {
 	float: left;
+	box-shadow: 0 2px 4px rgba(0,0,0,.25);
 }
 
 .medium-image img {
@@ -194,7 +194,7 @@ html, body {
 
 .caption-position {
 	position: static;
-	margin: 1em 15% 0% 15%;
+	margin: 1em 15% 0 15%;
     text-align: left;
     line-height: 180%;
     font-size: 150%;
@@ -205,14 +205,14 @@ html, body {
 @media (max-width: 767px) {
 	.caption-position {
 		line-height: 120%;
-		margin: 0.7em 3% 0% 3%;
+		margin: 0.7em 3% 0 3%;
 	}
 }
 
 @media (max-width: 991px) {
 	.caption-position {
 		line-height: 160%;
-		margin: 0.7em 7% 0% 7%;
+		margin: 0.7em 7% 0 7%;
 	}
 }
 
@@ -519,13 +519,13 @@ body.sml-open nav.cbp-spmenu-left {
 }
 
 .image-thumbnail {
-	border: 1px solid #C8C8C8;
 	width: 100%;
+	box-shadow: 0 2px 4px rgba(0,0,0,.25)
 }
 
 @media (max-width: 767px) {
 	.row .col-sm-4 {
-		width: 300px;
+		max-width: 300px;
 		margin: 1.5em auto 2em auto;
 	}
 }
