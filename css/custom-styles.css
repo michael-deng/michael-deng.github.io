@@ -194,7 +194,7 @@ html, body {
 
 .caption-position {
 	position: static;
-	margin: 1em 15% 0 15%;
+	margin: 0.75em 15% 0.75em 15%;
     text-align: left;
     line-height: 180%;
     font-size: 150%;
@@ -471,14 +471,6 @@ html, body {
 
 body.sml-open nav.cbp-spmenu-left {
   left: 0
-}
-
-/* Image */
-
-.image-caption {
-	text-align: center;
-	color: #707070;
-	font-size: 0.8em;
 }
 
 /* Experience */
