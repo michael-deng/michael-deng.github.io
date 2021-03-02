@@ -86,8 +86,7 @@ html, body {
 
 .home-heading-position {
     position: static;
-    padding-top: 0.8em;
-    margin: 0 auto 0 auto;
+    margin: 1em auto 0 auto;
     text-align: center;
     font-size: 550%;
     font-weight: 700;
@@ -194,10 +193,10 @@ html, body {
 
 .caption-position {
 	position: static;
-	margin: 0.75em 15% 0.75em 15%;
+	margin: 0.8em 20% 0.8em 20%;
     text-align: left;
-    line-height: 180%;
-    font-size: 150%;
+    line-height: 160%;
+    font-size: 140%;
     font-weight: 400;
     overflow: auto;
 }
@@ -211,7 +210,7 @@ html, body {
 
 @media (max-width: 991px) {
 	.caption-position {
-		line-height: 160%;
+		line-height: 120%;
 		margin: 0.7em 7% 0 7%;
 	}
 }
