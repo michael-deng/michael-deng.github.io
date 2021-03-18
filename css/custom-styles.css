@@ -191,6 +191,15 @@ html, body {
     font-variant: small-caps;
 }
 
+.subheading-position {
+    position: static;
+    margin: 0.5em auto 0 auto;
+    text-align: center;
+    font-size: 300%;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
 .caption-position {
 	position: static;
 	margin: 0.8em 20% 0.8em 20%;
@@ -199,6 +208,10 @@ html, body {
     font-size: 140%;
     font-weight: 400;
     overflow: auto;
+}
+
+.center {
+	text-align: center;
 }
 
 @media (max-width: 767px) {
@@ -474,18 +487,12 @@ body.sml-open nav.cbp-spmenu-left {
 
 /* Experience */
 
-.company-logo {
-	float: left;
+.company-logos {
+	text-align: center;
 }
 
-.company-logo img {
+.company-logos img {
 	height: 4em;
-}
-
-.company-details {
-	float: left;
-	margin-left: 0.5em;
-	width: calc(100% - 4.5em);
 }
 
 
