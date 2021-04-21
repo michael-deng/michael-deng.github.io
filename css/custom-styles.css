@@ -152,6 +152,10 @@ html, body {
 	width: calc(100% - 12.6em);
 }
 
+.medium-caption a {
+	font-weight: 400;
+}
+
 .email-signup {
 	width: 700px;
     max-width: 100%;
@@ -507,8 +511,23 @@ body.sml-open nav.cbp-spmenu-left {
 	text-align: left;
 }
 
+.row .project-caption .additional-caption {
+	margin-top: 0.7em;
+	text-align: left;
+}
+
 .row .project-caption span {
 	font-size: 1.2em;
+}
+
+.row .project-caption span.online {
+	font-size: 1em;
+	color: green;
+}
+
+.row .project-caption span.offline {
+	font-size: 1em;
+	color: red;
 }
 
 .project-title {
