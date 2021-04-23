@@ -514,6 +514,8 @@ body.sml-open nav.cbp-spmenu-left {
 .row .project-caption .additional-caption {
 	margin-top: 0.7em;
 	text-align: left;
+	font-size: 0.75em;
+	line-height: 1.5em;
 }
 
 .row .project-caption span {
