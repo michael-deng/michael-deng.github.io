@@ -33,6 +33,7 @@ html, body {
 }
 .carousel {
 	margin-bottom: 5em;
+	padding-bottom: 3em;
 }
 .carousel-caption {
 	z-index: 10;
@@ -120,6 +121,9 @@ html, body {
 	margin: auto;
 	padding: 2em 0.5em 2em 0.5em;
 	overflow: auto;
+}
+
+.bottom-border {
 	border-bottom: 1px solid #000;
 }
 
