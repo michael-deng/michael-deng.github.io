@@ -186,8 +186,11 @@ html, body {
 }
 
 .row div {
-	text-align: center;
 	margin: 1em 0 1em 0;
+}
+
+.row .about-me-col {
+	padding: 0 1.5em 1em 1.5em;
 }
 
 .heading-position {
@@ -213,7 +216,7 @@ html, body {
 	margin: 0.8em 20% 0.8em 20%;
     text-align: left;
     line-height: 160%;
-    font-size: 140%;
+    font-size: 150%;
     font-weight: 400;
     overflow: auto;
 }
