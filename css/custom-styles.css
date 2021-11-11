@@ -211,6 +211,15 @@ html, body {
     font-variant: small-caps;
 }
 
+.subsubheading-position {
+    position: static;
+    margin: 0.5em auto 0 auto;
+    text-align: center;
+    font-size: 240%;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
 .caption-position {
 	position: static;
 	margin: 0.8em 20% 0.8em 20%;
@@ -506,6 +515,15 @@ body.sml-open nav.cbp-spmenu-left {
 	height: 4em;
 }
 
+.investment-logos {
+	text-align: center;
+}
+
+.investment-logos img {
+	height: 2.4em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
 
 
 /* Project pictures */
