@@ -236,14 +236,14 @@ html, body {
 
 @media (max-width: 767px) {
 	.caption-position {
-		line-height: 120%;
+		line-height: 140%;
 		margin: 0.7em 3% 0 3%;
 	}
 }
 
 @media (max-width: 991px) {
 	.caption-position {
-		line-height: 120%;
+		line-height: 140%;
 		margin: 0.7em 7% 0 7%;
 	}
 }
@@ -516,13 +516,20 @@ body.sml-open nav.cbp-spmenu-left {
 }
 
 .investment-logos {
-	text-align: center;
+	width: 10em;
+	margin: auto;
+}
+
+.investment-logos div {
+	text-align: left;
+	margin-bottom: 0.7em;
+	font-size: 1.1em;
+	font-weight: 700;
 }
 
 .investment-logos img {
-	height: 2.4em;
-	margin-left: 0.5em;
-	margin-right: 0.5em;
+	height: 2.5em;
+	margin-right: 0.7em;
 }
 
 
