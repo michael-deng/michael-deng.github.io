@@ -508,21 +508,21 @@ body.sml-open nav.cbp-spmenu-left {
 }
 
 .investment-logos {
-	width: 32em;
-	margin: auto;
+	width: 28em;
+	margin: 1em auto 0 auto;
 }
 
 .investment-logos .col-xs-6 div {
-	font-size: 1em;
+	font-size: 1.1em;
 	font-weight: 700;
-	width: 15em;
-	margin: 0 auto 0.5em auto;
-	padding-left: 0.5em;
+	margin: 0 auto 1em auto;
+	padding-left: 0.8em;
 }
 
 .investment-logos .col-xs-6 div img {
-	height: 2.5em;
-	margin-right: 0.5em;
+	height: 2.7em;
+	margin-right: 0.8em;
+	box-shadow: 0 2px 4px rgba(0,0,0,.25);
 }
 
 
