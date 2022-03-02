@@ -54,12 +54,6 @@ function goToSlide(number) {
         toggleSlideLeft4 = document.querySelector( ".toggle-slide-left4" ),
         activeNav
     ;
-    var body = document.body,
-        mask = document.createElement("div"),
-        button5 = document.querySelector(".button5"),
-        toggleSlideLeft5 = document.querySelector( ".toggle-slide-left5" ),
-        activeNav
-    ;
     mask.className = "mask";
 
     /* push menu left */
@@ -79,11 +73,6 @@ function goToSlide(number) {
         activeNav = "sml-open";
     } );
     toggleSlideLeft4.addEventListener( "click", function(){
-        classie.add( body, "sml-open" );
-        document.body.appendChild(mask);
-        activeNav = "sml-open";
-    } );
-    toggleSlideLeft5.addEventListener( "click", function(){
         classie.add( body, "sml-open" );
         document.body.appendChild(mask);
         activeNav = "sml-open";
@@ -113,11 +102,6 @@ function goToSlide(number) {
         document.body.removeChild(mask);
     } );
     button4.addEventListener( "click", function(){
-        classie.remove( body, activeNav );
-        activeNav = "";
-        document.body.removeChild(mask);
-    } );
-    button5.addEventListener( "click", function(){
         classie.remove( body, activeNav );
         activeNav = "";
         document.body.removeChild(mask);
