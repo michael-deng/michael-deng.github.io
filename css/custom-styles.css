@@ -549,6 +549,11 @@ body.sml-open nav.cbp-spmenu-left {
 	color: green;
 }
 
+.row .project-caption span.wip {
+	font-size: 1em;
+	color: orange;
+}
+
 .row .project-caption span.offline {
 	font-size: 1em;
 	color: red;
