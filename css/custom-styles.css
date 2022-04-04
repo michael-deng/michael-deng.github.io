@@ -504,19 +504,19 @@ body.sml-open nav.cbp-spmenu-left {
 }
 
 .investment-logos {
-	width: 48em;
+	width: 40em;
 	margin: 1em auto 0 auto;
-	padding-left: 2em;
+	padding-left: 4em;
 }
 
-.investment-logos .col-xs-4 div {
+.investment-logos div div {
 	font-size: 1.1em;
 	font-weight: 700;
 	margin: 0 auto 1em auto;
 	padding-left: 0.8em;
 }
 
-.investment-logos .col-xs-4 div img {
+.investment-logos div div img {
 	height: 2.7em;
 	margin-right: 0.8em;
 	box-shadow: 0 2px 4px rgba(0,0,0,.25);
