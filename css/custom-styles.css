@@ -27,7 +27,7 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Andada Pro', serif;
 }
 
 .cbp-spmenu a {
@@ -99,12 +99,12 @@ html, body {
 /* Content positioning */
 
 .home-heading-position {
-    position: static;
-    margin: 1em auto 0 auto;
-    text-align: center;
-    font-size: 550%;
-    font-weight: 700;
-    line-height: 1em;
+  position: static;
+  margin: 1.2em auto 0 auto;
+  text-align: center;
+  font-size: 550%;
+  font-weight: 700;
+  line-height: 1em;
 }
 
 .icons {
@@ -175,7 +175,7 @@ html, body {
 
 .email-signup {
 	width: 700px;
-    max-width: 100%;
+  max-width: 100%;
 	margin: auto;
 	text-align: center;
 	padding-top: 2em;
@@ -183,19 +183,19 @@ html, body {
 }
 
 #mc_embed_signup label {
-    font-family: 'Raleway', sans-serif;
-    padding-bottom: 0;
+  font-family: 'Andada Pro', serif;
+  padding-bottom: 0;
 }
 
 #mc_embed_signup #mce-EMAIL {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1em;
+  font-family: 'Andada Pro', serif;
+  font-size: 1em;
 }
 
 #mc_embed_signup #mc-embedded-subscribe {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 1em;
+  font-family: 'Andada Pro', serif;
+  font-weight: 700;
+  font-size: 1em;
 }
 
 .row div {
@@ -207,21 +207,21 @@ html, body {
 }
 
 .heading-position {
-    position: static;
-    margin: 0.5em auto 0 auto;
-    text-align: center;
-    font-size: 500%;
-    font-weight: 700;
-    font-variant: small-caps;
+  position: static;
+  margin: 0.5em auto 0 auto;
+  text-align: center;
+  font-size: 500%;
+  font-weight: 700;
+  font-variant: small-caps;
 }
 
 .subheading-position {
-    position: static;
-    margin: 0.5em auto 0 auto;
-    text-align: center;
-    font-size: 280%;
-    font-weight: 700;
-    font-variant: small-caps;
+  position: static;
+  margin: 0.5em auto 0 auto;
+  text-align: center;
+  font-size: 280%;
+  font-weight: 700;
+  font-variant: small-caps;
 }
 
 .caption-position {
@@ -249,8 +249,6 @@ html, body {
 }
 
 .projects-info {
-	font-size: 120%; 
-	line-height: 140%;
 	margin-top: 0;
 }
 
@@ -305,7 +303,6 @@ html, body {
 /* Hyperlink Effects */
 
 .hyperlink {
-	padding: 0.5% 0.5% 0% 0.5%;
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
@@ -505,7 +502,7 @@ body.sml-open nav.cbp-spmenu-left {
 /* Experience */
 
 .company-logos {
-	margin-top: 1em;
+	margin-top: 5em;
 	text-align: center;
 }
 
@@ -546,33 +543,36 @@ body.sml-open nav.cbp-spmenu-left {
 .row .project-caption .additional-caption {
 	margin-top: 0.7em;
 	text-align: left;
-	font-size: 0.75em;
+	font-size: 1rem;
 	line-height: 1.5em;
 }
 
-.row .project-caption span {
+.row .project-caption a {
 	font-size: 1.2em;
 }
 
-.row .project-caption span.online {
-	font-size: 1em;
+.row .project-caption .online, .row .project-caption .wip, .row .project-caption .offline {
+  font-size: 0.9em;
+  font-weight: 700;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+.row .project-caption .online {
 	color: green;
 }
 
-.row .project-caption span.wip {
-	font-size: 1em;
+.row .project-caption .wip {
 	color: orange;
 }
 
-.row .project-caption span.offline {
-	font-size: 1em;
+.row .project-caption .offline {
 	color: red;
 }
 
-.project-title {
-	font-size: 1.2em;
-	font-style: bold;
-}
+/* .row .project-caption .subcaption {
+  font-size: 1em;
+} */
 
 .image-thumbnail {
 	width: 100%;
