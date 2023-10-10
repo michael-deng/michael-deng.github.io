@@ -23,14 +23,27 @@
   body {font-size: 10px;}
 }
 
-/* Carousel background */
-
 html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
 	font-family: 'Raleway', sans-serif;
 }
+
+.cbp-spmenu a {
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+
+.container a {
+  text-decoration: none;
+  outline: none;
+  color: black;
+}
+
+/* Carousel background */
+
 .carousel {
 	margin-bottom: 5em;
 	padding-bottom: 3em;
@@ -98,12 +111,6 @@ html, body {
 	padding: 0;
 	margin: 1.5em auto 2em auto;
 	text-align: center;
-}
-
-.icons a {
-  color: black;
-  text-decoration: none;
-  outline: none;
 }
 
 .medium-heading {
@@ -220,11 +227,11 @@ html, body {
 .caption-position {
 	position: static;
 	margin: 0.8em 20% 0.8em 20%;
-    text-align: left;
-    line-height: 160%;
-    font-size: 150%;
-    font-weight: 400;
-    overflow: auto;
+  text-align: left;
+  line-height: 160%;
+  font-size: 125%;
+  font-weight: 400;
+  overflow: auto;
 }
 
 @media (max-width: 767px) {
@@ -440,9 +447,6 @@ html, body {
 	height: 100%;
 	top: 0;
 	z-index: 1000;
-}
-
-.cbp-spmenu-vertical a {
 }
 
 /* Vertical menu that slides from the left or right */
