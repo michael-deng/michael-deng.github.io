@@ -549,9 +549,10 @@ body.sml-open nav.cbp-spmenu-left {
 
 .row .project-caption a {
 	font-size: 1.2em;
+  font-weight: 700;
 }
 
-.row .project-caption .online, .row .project-caption .wip, .row .project-caption .offline {
+.row .project-caption .online, .row .project-caption .unmaintained, .row .project-caption .offline {
   font-size: 0.9em;
   font-weight: 700;
   margin-top: 0.2em;
@@ -562,17 +563,13 @@ body.sml-open nav.cbp-spmenu-left {
 	color: green;
 }
 
-.row .project-caption .wip {
+.row .project-caption .unmaintained {
 	color: orange;
 }
 
 .row .project-caption .offline {
 	color: red;
 }
-
-/* .row .project-caption .subcaption {
-  font-size: 1em;
-} */
 
 .image-thumbnail {
 	width: 100%;
